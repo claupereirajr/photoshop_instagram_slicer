@@ -7,13 +7,11 @@
          alt="Adobe Photoshop">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
          alt="ExtendedJavaScript">
-  <img src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"
-         alt="ExtendedJavaScript">
   <img src="http://ForTheBadge.com/images/badges/built-with-love.svg"
          alt="ExtendedJavaScript">
 </p>
 
-![alt](https://)
+![](https://github.com/claupereirajr/photoshop_instagram_slicer/blob/f1c503fb2ff2d31499f8139dfcd6386c67c20728/recoderd_tutorial.gif)
 
 ## Key Features
 
