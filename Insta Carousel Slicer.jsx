@@ -29,7 +29,7 @@ function DisplayAlert(message, title, errorType){
 function __main__(){
   // If don"t have any file open
   if (!app.documents.length) {
-    DisplayAlert("Nenhum projeto aberto...", "Erro no Project", true);
+    DisplayAlert("None project open", "Error no document", true);
     return;
   }
   DialogSelectSizeFile();
@@ -46,7 +46,7 @@ function getJPEGOptions() {
 }
 
 function DialogSelectSizeFile(){
-  var dlg = new Window("dialog", "Qual o tamanho das telas?"),
+  var dlg = new Window("dialog", "Instagram Carousel Slicer"),
     directory = app.activeDocument.path,
     documentDimension = {
 			x: parseFloat(app.activeDocument.width, 10),
@@ -127,11 +127,11 @@ function DialogSelectSizeFile(){
     dlg.btnPnl.orientation = "row";
     dlg.btnPnl.spacing = 20;
 
-    dlg.btnPnl.btnApply = dlg.btnPnl.add("button", [undefined, undefined, 230, 30], "Exportar", {
+    dlg.btnPnl.btnApply = dlg.btnPnl.add("button", [undefined, undefined, 230, 30], "Export", {
       name: "btnApply"
     });
 
-    dlg.btnPnl.btnCancel = dlg.btnPnl.add("button", [undefined, undefined, 230, 30], "Cancelar", {
+    dlg.btnPnl.btnCancel = dlg.btnPnl.add("button", [undefined, undefined, 230, 30], "Cancel", {
       name: "btnCancel"
     });
 
@@ -168,7 +168,7 @@ function DialogSelectSizeFile(){
           dlg.close();
           break;
         default:
-          alert("Ocorreu um erro desconhecido.");
+          alert("Undefined Error.");
           break;
       }
     };
@@ -228,10 +228,10 @@ function sliceMaker(baseWidth, baseHeight, typeImage, directory){
   var alllayers = currentDoc.artLayers;
 
   // Verify width it's multple of 1080px so 1080 x 4 (images) = 7680px
-  if (docWidth % screens != 0){
-    DisplayAlert("Largura errada ou Altura errada", "Erro de Tamanho", false);
-    return;
-  }
+  // if (docWidth % screens != 0){
+  //   DisplayAlert("Largura errada ou Altura errada", "Erro de Tamanho", false);
+  //   return;
+  // }
 
   var tmp = baseWidth;
 
@@ -261,7 +261,7 @@ function sliceMaker(baseWidth, baseHeight, typeImage, directory){
 
   // Export Files
   currentDoc.exportDocument(file, ExportType.SAVEFORWEB, webOptions);
-  DisplayAlert("Carousel Exportado com sucesso. Na pasta "+ directory,"Tudo certo !",false);
+  DisplayAlert("Carousel exported in "+ directory,"Tudo certo !",false);
 };
 
 __main__();
