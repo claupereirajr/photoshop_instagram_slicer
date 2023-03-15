@@ -3,19 +3,17 @@
 <p>This script is designed to automate the process of creating slices for Instagram posts and stories in Adobe Photoshop. The script generates slices for both landscape and portrait orientations, in the recommended sizes for Instagram posts and stories.</p>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black"
+         alt="Adobe Photoshop">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+         alt="ExtendedJavaScript">
+  <img src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"
+         alt="ExtendedJavaScript">
+  <img src="http://ForTheBadge.com/images/badges/built-with-love.svg"
+         alt="ExtendedJavaScript">
 </p>
-GIF
+
+![alt](https://)
 
 ## Key Features
 
